@@ -1,0 +1,71 @@
+.cuerpo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    padding: 2vh;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    &-texto{
+        color: white;
+        &__registro{
+            display: flex;
+            background-color: white;
+            border-radius: 2px;
+            border: solid black;
+            justify-content: center;
+            a{
+            text-decoration: none; 
+            color: rgb(84, 21, 84); 
+            font-size: medium;
+            }
+       &__google{
+        background-color: blue;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+        
+        }
+        
+        &-video{
+            width: 50vh;
+            height: 50vw;
+        }
+
+
+    }
+}
+
+
+@media screen and (min-width: 1581px) {
+    .cuerpo{
+
+        &-texto{
+            color: white;
+            width: 50vh;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            font-size: x-large;
+            text-align: center;
+            &__registro{
+                width: 20vh;
+                img{
+                    border-radius: 5px;
+                }
+            }
+
+        }
+        &-video{
+            video{
+                height: 47vh;
+                width: 50vw;
+            }
+            
+
+        }
+    }
+}
