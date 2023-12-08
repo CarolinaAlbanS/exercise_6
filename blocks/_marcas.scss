@@ -1,0 +1,26 @@
+.marcas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244, 237, 228);
+    flex-direction: column;
+    height: 80vw;
+    position: relative;
+    z-index: auto;
+    margin-top: -13vw;
+    width: 100%;
+    text-align: center;
+    h3{
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        font-size: medium;
+        width: 40vh;
+    }
+    &-imagenes{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+}

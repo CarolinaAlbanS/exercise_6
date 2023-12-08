@@ -1,0 +1,107 @@
+.porcentajes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    &-titulo{
+        font-size: xx-large;
+        margin: 15%;
+        margin-bottom: 0%;
+    }
+
+    &-parrafo{
+        margin: 8%;
+        font-size: large;
+    }
+
+    &-empresas{
+        background-color: rgb(84, 21, 84);
+        width: 44vh;
+        height: 15vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        margin: 2%;
+
+        &__enlace{
+            text-decoration: none;
+            color: white;
+            font-weight: 600px;
+        }
+
+    }
+    &-ventas{
+        width: 44vh;
+        height: 15vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        border: 1px solid rgb(84, 21, 84);
+        margin: 2%;
+        &__enlace{
+            text-decoration: none;
+            color: rgb(84, 21, 84);
+            font-weight: 600px;
+        }
+
+    }
+    &-lista{
+        list-style: none;
+        margin: 15%;
+        &__item{
+            display: flex;
+            flex-direction: column;
+            align-content: space-around;
+            justify-content: center;
+            align-items: center;
+            h1{
+                color: rgb(84, 21, 84);
+                margin: 5%;
+                font-weight: 600px;
+                font-size: 55px;
+            }
+            p{
+                width: 23vh;
+            }
+        }
+    }
+    &-comentario{
+        text-align: left;
+        font-size: larger;
+        margin: 10%;
+        margin-left: 5%;
+        font-style: italic;
+        
+    }
+    &-nombre{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        text-align: left;
+        margin-bottom: 5%;
+        margin-top: -5%;
+        margin-right: 10%;
+        &__primero{
+            font-weight: 900;
+        }
+        a{
+            margin-top: 5%;
+            color: rgb(40, 102, 163);
+            text-decoration: none;
+            font-size: large;
+        }
+
+    }
+    &-ultimo{
+        font-size: medium;
+        text-align: center;
+        color: rgb(93, 93, 94);
+        margin-top: 10%;
+        width: 43vh;
+        padding: 5%;
+    }
+}
