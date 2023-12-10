@@ -1,3 +1,5 @@
+$font-principal: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+
 .ultimo{
     display: flex;
     justify-content: center;
@@ -7,6 +9,9 @@
     height: 90vw;
     background-color: rgb(84, 21, 84);
     text-align: center;
+    clip-path: ellipse(105% 100% at center top);
+    padding-bottom: 6rem!important;
+    font-family: $font-principal;
     h1{
         margin: 4%;
         margin-top: 13vw;

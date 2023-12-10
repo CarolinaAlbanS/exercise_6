@@ -7,6 +7,7 @@
   background-color: rgb(84, 21, 84);
   width: 100%;
   height: 921px;
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
 }
 .header-superior {
   display: flex;
@@ -84,11 +85,20 @@
   font-size: 20px;
   color: white;
   text-align: center;
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
 }
 .cuerpo-texto {
   color: white;
 }
+.cuerpo-texto h1 {
+  display: inline;
+}
+.cuerpo-texto__especial {
+  color: #ecb22e;
+  display: inline;
+}
 .cuerpo-texto__registro {
+  width: 43vh;
   display: flex;
   background-color: white;
   border-radius: 2px;
@@ -105,6 +115,7 @@
   font-size: medium;
 }
 .cuerpo-texto__google {
+  width: 43vh;
   display: flex;
   background-color: rgb(66, 133, 244);
   border-radius: 2px;
@@ -171,6 +182,7 @@
   margin-bottom: 2vw;
   font-size: medium;
   width: 40vh;
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
 }
 .marcas-imagenes {
   display: flex;
@@ -187,6 +199,7 @@
   justify-content: center;
   align-items: center;
   font-size: larger;
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
 }
 .articulos-uno {
   width: 41vh;
@@ -209,6 +222,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
 }
 .porcentajes-titulo {
   font-size: xx-large;
@@ -284,15 +298,32 @@
   margin-bottom: 5%;
   margin-top: -5%;
   margin-right: 10%;
+  /*.porcentajes::after{
+
+      width: 25px;
+      height: 14px;
+      position: absolute;
+      bottom: 18px;
+      right: 15px;
+      background-image: url(data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D%220%200%2025%2014%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20stroke%3D%22%231264A3%22%20stroke-width%3D%222%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%20stroke-linecap%3D%22round%22%3E%3Cpath%20d%3D%22M1.548%207h21.904%22%2F%3E%3Cpath%20stroke-linejoin%3D%22round%22%20d%3D%22M17%201l7%206-7%206%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E);
+  }*/
 }
 .porcentajes-nombre__primero {
   font-weight: 900;
 }
-.porcentajes-nombre a {
+.porcentajes-nombre__casos {
   margin-top: 5%;
   color: rgb(40, 102, 163);
   text-decoration: none;
   font-size: large;
+}
+.porcentajes-nombre img {
+  width: 5vw;
+  height: 1vh;
+  display: inline;
+  position: relative;
+  margin-top: -1.8vh;
+  margin-left: 47vw;
 }
 .porcentajes-ultimo {
   font-size: medium;
@@ -312,6 +343,7 @@
   text-align: center;
   background-color: rgb(244, 237, 228);
   font-size: medium;
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
 }
 .cromo-titulo {
   margin: 5%;
@@ -344,6 +376,14 @@
   font-size: large;
   margin-top: 8vh;
 }
+.cromo-carta__texto img {
+  width: 11vw;
+  height: 1.5vh;
+  display: inline;
+  position: relative;
+  margin-top: -1.8vh;
+  margin-left: 66vw;
+}
 
 .ultimo {
   display: flex;
@@ -354,6 +394,10 @@
   height: 90vw;
   background-color: rgb(84, 21, 84);
   text-align: center;
+  -webkit-clip-path: ellipse(105% 100% at center top);
+          clip-path: ellipse(105% 100% at center top);
+  padding-bottom: 6rem !important;
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
 }
 .ultimo h1 {
   margin: 4%;
@@ -400,6 +444,7 @@
   align-content: flex-start;
   align-items: flex-start;
   padding: 2vh;
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
 }
 .footer-desplegable {
   display: flex;
@@ -427,19 +472,41 @@
   color: rgb(58, 57, 58);
   margin-bottom: 5vw;
 }
-.footer-enlaces__img {
+.footer-enlaces__img1 {
   display: flex;
   text-align: center;
   align-items: center;
-  margin-top: 3vh;
-  margin-left: -4vw;
-  /*align-items: baseline;*/
+  margin-top: 0vh;
+  margin-left: 0vw;
+  margin-bottom: 2vh;
 }
 .footer-enlaces__privacidad {
   text-align: center;
   height: 0vh;
 }
-
-/*.centrado{
-    margin-bottom: 0 !important;
-}*//*# sourceMappingURL=style.css.map */
+.footer-enlaces__img2 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-top: -2vh;
+  margin-left: -4vw;
+}
+.footer-enlaces__img3 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-top: 1vh;
+  margin-left: -4vw;
+}
+.footer-redes {
+  width: 43vh;
+  height: 15vw;
+  display: flex;
+  text-decoration: none;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.footer-final {
+  margin: 3%;
+  font-size: small;
+}/*# sourceMappingURL=style.css.map */

@@ -1,3 +1,5 @@
+$font-principal: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+
 .cromo{
     display: flex;
     justify-content: center;
@@ -7,6 +9,7 @@
     text-align: center;
     background-color: rgb(244, 237, 228);
     font-size: medium;
+    font-family: $font-principal;
     &-titulo{
         margin: 5%;
         text-align: center;
@@ -35,6 +38,14 @@
                 color: rgb(40, 102, 163);
                 font-size: large;
                 margin-top: 8vh;
+            }
+            img{
+                width: 11vw;
+                height: 1.5vh;
+                display: inline;
+                position: relative;
+                margin-top: -1.8vh;
+                margin-left: 66vw;
             }
            
 

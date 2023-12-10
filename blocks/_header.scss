@@ -1,3 +1,5 @@
+$font-principal: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +9,7 @@
     background-color: rgb(84, 21, 84);
     width: 100%;
     height: 921px;
+    font-family: $font-principal;
     &-superior{
         display: flex;
         justify-content: space-between;

@@ -1,3 +1,5 @@
+$font-principal: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+
 .articulos{
     width: 100%;
     background-color: rgb(244, 237, 228);
@@ -6,6 +8,7 @@
     justify-content: center;
     align-items: center;
     font-size: larger;
+    font-family: $font-principal;
     &-uno{
         width: 41vh;
         display: flex;

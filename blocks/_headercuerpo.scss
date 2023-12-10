@@ -1,3 +1,5 @@
+$font-principal: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+
 .cuerpo{
     display: flex;
     flex-direction: column;
@@ -7,9 +9,19 @@
     font-size: 20px;
     color: white;
     text-align: center;
+    font-family: $font-principal;
+    
     &-texto{
         color: white;
+        h1{
+            display: inline;
+        }
+        &__especial{
+            color: #ecb22e;
+            display: inline;
+        }
         &__registro{
+            width: 43vh;
             display: flex;
             background-color: white;
             border-radius: 2px;
@@ -27,6 +39,7 @@
        
         }
         &__google{
+            width: 43vh;
             display: flex;
             background-color: rgb(66, 133, 244);
             border-radius: 2px;

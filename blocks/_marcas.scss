@@ -1,3 +1,6 @@
+
+$font-principal: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+
 .marcas{
     display: flex;
     justify-content: center;
@@ -15,6 +18,7 @@
         margin-bottom: 2vw;
         font-size: medium;
         width: 40vh;
+        font-family: $font-principal;
     }
     &-imagenes{
         display: flex;

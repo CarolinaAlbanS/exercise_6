@@ -1,3 +1,5 @@
+$font-principal: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+
 .footer{
     display: flex;
     justify-content: center;
@@ -5,6 +7,7 @@
     align-content: flex-start;
     align-items: flex-start;
     padding: 2vh;
+    font-family: $font-principal;
     &-desplegable{
         display: flex;
         flex-direction: column;
@@ -31,23 +34,51 @@
             color: rgb(58, 57, 58);
             margin-bottom: 5vw;
         }
-        &__img{
+        &__img1{
             display: flex;
             text-align: center;
             align-items: center;
-            margin-top: 3vh;
-            margin-left: -4vw;
-            /*align-items: baseline;*/
+            margin-top: 0vh;
+            margin-left: 0vw;
+            margin-bottom: 2vh;
+
+            
         }
         &__privacidad{
             text-align: center; 
             height: 0vh;
             
         }
+        &__img2{
+            display: flex;
+            text-align: center;
+            align-items: center;
+            margin-top: -2vh;
+            margin-left: -4vw;
+            
+        }
+        &__img3{
+            display: flex;
+            text-align: center;
+            align-items: center;
+            margin-top: 1vh;
+            margin-left: -4vw;
+            
+        }
+
+    }
+    &-redes{
+        width: 43vh;
+        height: 15vw;
+        display: flex;
+        text-decoration: none;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    &-final{
+        margin: 3%;
+        font-size: small;
 
     }
 
 }
-/*.centrado{
-    margin-bottom: 0 !important;
-}*/
